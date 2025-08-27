@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <!-- grouped form section using fieldset -->
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="name">Name</label>
+        <input type="text" required placeholder="John" />
+
+        <br />
+
+        <label for="surname">Surname</label>
+        <input type="text" required placeholder="Smith" />
+
+        <br />
+
+        <label for="birth">Date of Birth</label>
+        <input type="date" required />
+
+        <br />
+
+        <label for="female">Female</label>
+        <input type="radio" required />
+
+        <label for="male">Male</label>
+        <input type="radio" required />
+
+        <br />
+
+        <label for="email">Email Address</label>
+        <input type="email" required placeholder="johnsmith@gmaill.com" />
+      </fieldset>
+
+      <!-- grouped form section using fieldset -->
+      <fieldset>
+        <legend>Food Preferences</legend>
+
+        <label for="main">Main meal</label>
+        <select name="main" id="main">
+          <option value="burger">Burger & Fries</option>
+          <option value="spaghetti">Spaghetti</option>
+          <option value="steak">Steak</option>
+        </select>
+      </fieldset>
+
+      <!-- grouped form section using fieldset -->
+      <fieldset>
+        <legend>Event Registration</legend>
+        <p>Are you bringing in extra people with you?</p>
+
+        <label for="yes">Yes</label>
+        <input type="radio" required />
+
+        <label for="no">No</label>
+        <input type="radio" required />
+
+        <br />
+
+        <!-- no. of people has a min. of 1 and max 10 -->
+        <label for="people">No. of people coming</label>
+        <input type="number" min="1" max="10" />
+      </fieldset>
+
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
