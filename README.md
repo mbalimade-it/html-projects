@@ -33,3 +33,7 @@ _practiced form elements using different input types_
 ---
 
 ## Intermediate Projects
+
+### [06. Business Application Form](https://mbalimade-it.github.io/html-projects/06_business_application_form)
+
+_advanced form elements, form validation and input types, form attributes, form grouping, native form validation, file handling_
