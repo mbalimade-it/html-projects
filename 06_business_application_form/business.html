@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Details</title>
+  </head>
+  <body>
+    <form>
+      <!-- business details section -->
+      <h2>Business Details</h2>
+
+      <!-- your business info -->
+      <fieldset>
+        <legend>Your Business</legend>
+
+        <label for="business-name">Business Legal Name</label>
+        <input
+          type="text"
+          required
+          id="business-name"
+          autocomplete="organization"
+        />
+        <br /><br />
+
+        <label for="business-website">Business Website</label>
+        <input type="url" required id="business-website" autocomplete="url" />
+        <br /><br />
+
+        <label for="number-employees">Number of Employees</label>
+        <input
+          type="number"
+          required
+          id="number-employees"
+          min="2"
+          max="100"
+          step="1"
+        />
+
+        <!-- business type section -->
+        <p>Business Type:</p>
+        <label for="startup">Start Up</label>
+        <input
+          type="radio"
+          required
+          id="startup"
+          name="business-type"
+          value="startup"
+        />
+
+        <label for="established-business">Established Business</label>
+        <input
+          type="radio"
+          required
+          id="established-business"
+          name="business-type"
+          value="established"
+        />
+
+        <label for="sole-proprietor">Sole Proprietor</label>
+        <input
+          type="radio"
+          required
+          id="sole-proprietor"
+          name="business-type"
+          value="sole-proprietor"
+        />
+      </fieldset>
+
+      <!-- document uploads fieldset -->
+      <fieldset>
+        <legend>Document Uploads</legend>
+
+        <!-- business logo upload that accepts images with png only -->
+        <label for="logo">Business Logo</label>
+        <input type="file" accept=".png" required id="logo" />
+        <br />
+
+        <!-- supporting documents that accepts pdf file only-->
+        <label for="supporting-documents">Supporting Documents</label>
+        <input type="file" required id="supporting-documents" accept=".pdf" />
+      </fieldset>
+
+      <br /><br />
+      <button type="submit">Submit</button>
+      <br /><br />
+      <a href="declaration.html">Next</a>
+      <br /><br />
+      <a href="index.html">Back</a>
+    </form>
+  </body>
+</html>

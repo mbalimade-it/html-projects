@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Application Form</title>
+  </head>
+  <body>
+    <h1>Business Application Form</h1>
+
+    <form>
+      <h2>Personal Information</h2>
+      <fieldset>
+        <legend>Applicant Details</legend>
+
+        <!-- full name -->
+        <label for="full-name">Full Name</label>
+        <input type="text" autocomplete="name" required id="full-name" />
+        <br /><br />
+
+        <!-- email address -->
+        <label for="email">Email Address</label>
+        <input type="email" autocomplete="email" required id="email" />
+        <br /><br />
+
+        <!-- phone number -->
+        <label for="phone-number">Phone Number</label>
+        <input
+          type="tel"
+          autocomplete="tel"
+          required
+          id="phone-number"
+          pattern="[0-9]{10}"
+          title="Enter a 10-digit phone number"
+        />
+        <br /><br />
+
+        <!-- date of birth -->
+        <label for="birth-date">Date of Birth</label>
+        <input type="date" required id="birth-date" />
+        <br /><br />
+
+        <!-- preferred contact time -->
+        <label for="contact-time">Preferred Contact Time</label>
+        <input type="time" required id="contact-time" />
+      </fieldset>
+
+      <!-- additional information fieldset -->
+      <fieldset>
+        <legend>Additional Information</legend>
+
+        <!-- primary industry selection -->
+        <label for="industry">Primary Industry</label>
+        <select name="industry" id="industry">
+          <!-- tech & innovation group -->
+          <optgroup label="Tech & Innovation">
+            <option value="software-it">Software & IT Services</option>
+            <option value="hardware-electro">Hardware & Electronics</option>
+            <option value="ai-ml">
+              Artificial Intelligence / Machine Learning
+            </option>
+          </optgroup>
+
+          <!-- finance & business group -->
+          <optgroup label="Finance & Business">
+            <option value="banking-financial">
+              Banking & Financial Services
+            </option>
+            <option value="accounting-auditing">Accounting & Auditing</option>
+            <option value="investment-venture-cap">
+              Investment & Venture Capital
+            </option>
+          </optgroup>
+        </select>
+
+        <!-- preferred communication method -->
+        <p>Preferred Communication Method:</p>
+        <label for="comm-email">Email</label>
+        <input
+          type="radio"
+          id="comm-email"
+          name="communication"
+          value="email"
+        />
+
+        <label for="comm-phone">Phone</label>
+        <input
+          type="radio"
+          id="comm-phone"
+          name="communication"
+          value="phone"
+        />
+
+        <label for="comm-mail">Mail</label>
+        <input type="radio" id="comm-mail" name="communication" value="mail" />
+
+        <!-- interests section -->
+        <p>Interests:</p>
+        <label for="tech">Tech</label>
+        <input
+          type="checkbox"
+          required
+          id="tech"
+          name="interests"
+          value="tech"
+        />
+
+        <label for="finance">Finance</label>
+        <input type="checkbox" id="finance" name="interests" value="finance" />
+
+        <label for="marketing">Marketing</label>
+        <input
+          type="checkbox"
+          id="marketing"
+          name="interests"
+          value="marketing"
+        />
+
+        <label for="design">Design</label>
+        <input type="checkbox" id="design" name="interests" value="design" />
+      </fieldset>
+      <br /><br />
+
+      <button type="submit">Submit</button>
+      <br /><br />
+
+      <a href="business.html">Next</a>
+    </form>
+  </body>
+</html>

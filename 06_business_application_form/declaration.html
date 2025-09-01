@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Declaration & Review</title>
+  </head>
+  <body>
+    <!-- declaration & review fieldset -->
+    <h2>Declaration & Review</h2>
+
+    <form>
+      <fieldset>
+        <legend>Declaration</legend>
+
+        <!-- terms agreement -->
+        <label for="agreement">Terms Agreement</label>
+        <input type="checkbox" required id="agreement" />
+        <br /><br />
+
+        <!-- additional comments with max 200 characters-->
+        <label for="comments">Additional Comments (max 200 characters)</label>
+        <textarea
+          name="comments"
+          id="comments"
+          maxlength="200"
+          placeholder="Type your comments here..."
+        ></textarea>
+      </fieldset>
+      <br /><br />
+
+      <button type="submit">Submit</button>
+      <br /><br />
+
+      <a href="business.html">Back</a>
+    </form>
+  </body>
+</html>
