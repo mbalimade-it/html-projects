@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1">
+      <caption>
+        Monthly Sales Report
+      </caption>
+
+      <!-- colgroup -->
+      <colgroup>
+        <col style="background-color: #f9f9f9" />
+        <!-- styles first column -->
+        <col style="background-color: #e6f7ff" />
+        <!-- styles second column -->
+        <col style="background-color: #dff0d8" />
+        <!-- styles third column -->
+      </colgroup>
+
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Product</th>
+          <th>Sales (€)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>Apples</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>Oranges</td>
+          <td>900</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br /><br />
+
+    <!-- spanning multiple columns example -->
+    <table border="1">
+      <caption>
+        Student Scores
+      </caption>
+
+      <colgroup>
+        <col span="2" style="background-color: #f2f2f2" />
+        <!-- Applies to first 2 columns -->
+        <col style="background-color: #fff3cd" />
+        <!-- Third column -->
+      </colgroup>
+
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Subject</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice</td>
+          <td>Math</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>Science</td>
+          <td>85</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br /><br />
+
+    <!-- setting column width example -->
+    <table border="1">
+      <caption>
+        Invoice
+      </caption>
+
+      <colgroup>
+        <col style="width: 150px" />
+        <!-- Customer -->
+        <col style="width: 100px" />
+        <!-- Item -->
+        <col style="width: 80px" />
+        <!-- Price -->
+      </colgroup>
+
+      <thead>
+        <tr>
+          <th>Customer</th>
+          <th>Item</th>
+          <th>Price (€)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mbali</td>
+          <td>Laptop</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>Alice</td>
+          <td>Mouse</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

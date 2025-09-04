@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Organized Table</title>
+  </head>
+  <body>
+    <!-- table container -->
+    <table border="1">
+      <!-- caption element -->
+      <caption>
+        Monthly Sales Report
+      </caption>
+
+      <!-- table head section with tr & th -->
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Product</th>
+          <th>Sales (€)</th>
+        </tr>
+      </thead>
+
+      <!-- table body with tr & td -->
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>Apples</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>Oranges</td>
+          <td>900</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>Apples</td>
+          <td>1500</td>
+        </tr>
+      </tbody>
+
+      <!-- table footer with tr and td -->
+      <tfoot>
+        <tr>
+          <!-- merge two cells to one using colspan -->
+          <td colspan="2"><strong>Total</strong></td>
+          <td><strong>3600</strong></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
