@@ -61,7 +61,7 @@ Values:
 - `scope="col"` → says this is a **header column**
 - `scope="row"` → says this is a **header row**
 
-_The **example code** includes rows and columns as headers, then the data inside the table_
+_in the example code we have row headers so therefore scope="row"_
 
 ---
 
