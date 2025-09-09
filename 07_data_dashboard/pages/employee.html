@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Directory</title>
+  </head>
+  <body>
+    <h1>Employee Directory</h1>
+    <a href="../index.html">Home</a>
+    <br />
+    <a href="financial.html">Financial Report</a>
+
+    <br />
+    <a href="event.html">Event Schedule</a>
+    <br />
+    <a href="stats.html">Statistics Table</a>
+
+    <!-- main table div to make it responsive-->
+    <div style="overflow-x: auto">
+      <table border="1">
+        <!-- caption -->
+        <caption>
+          Employee Directory
+        </caption>
+
+        <!-- colgroup styling -->
+        <colgroup>
+          <!-- style first column -->
+          <col style="background: rgb(161, 161, 171)" />
+          <!-- stle 2nd columns -->
+          <col style="background: rgb(136, 136, 213)" />
+          <!-- style 3rd column -->
+          <col style="background: rgb(176, 132, 139)" />
+          <!-- style 4th column -->
+          <col style="background: rgb(197, 118, 132)" />
+          <!-- style 5th column -->
+          <col style="background: rgb(122, 197, 193)" />
+          <!-- style 6th column -->
+          <col style="background: rgba(67, 114, 120, 0.468)" />
+          <!-- style 7th column -->
+          <col style="background: rgb(139, 128, 167)" />
+        </colgroup>
+
+        <!-- table header section -->
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Department</th>
+            <th scope="col">Role</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Location</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+
+        <!-- body section -->
+        <tbody>
+          <tr>
+            <td>Alice Johnson</td>
+            <td>Sales</td>
+            <td>Manager</td>
+            <td>alice@biz.com</td>
+            <td>+32 444111</td>
+            <td>Brussels</td>
+            <td>Active</td>
+          </tr>
+
+          <tr>
+            <td>Ben Peters</td>
+            <td>IT</td>
+            <td>Developer</td>
+            <td>ben@biz.com</td>
+            <td>+32 444211</td>
+            <td>Antwerp</td>
+            <td>Active</td>
+          </tr>
+
+          <tr>
+            <td>Carla Mendes</td>
+            <td>Marketing</td>
+            <td>Designer</td>
+            <td>carla@biz.com</td>
+            <td>+32 444311</td>
+            <td>Ghent</td>
+            <td>On Leave</td>
+          </tr>
+
+          <tr>
+            <td>Daniel Smith</td>
+            <td>HR</td>
+            <td>Recruiter</td>
+            <td>daniel@biz.com</td>
+            <td>+32 444411</td>
+            <td>Bruges</td>
+            <td>Active</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
