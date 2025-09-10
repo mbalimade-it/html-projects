@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Elements with Datetime Attribute</title>
+  </head>
+  <body>
+    <!-- simple date example -->
+    <p>
+      Our next meeting is on
+      <time datetime="2025-09-15">September 15th, 2025</time>.
+    </p>
+    <!-- the user sees: September 15th, 2025
+        the browser/google sees: 2025-09-15 (which follows the international standard ISO 8601) -->
+
+    <!-- example with date and time -->
+    <p>
+      The webinar starts at
+      <time datetime="2025-09-15T19:00">7:00 PM, Sept 15th, 2025</time>.
+    </p>
+    <!-- the machine will capture the exact date and time in a global standard format -->
+
+    <!-- just time example -->
+    <p>
+      The store opens at <time datetime="09:00">9 AM</time> and closes at
+      <time datetime="18:00">6 PM</time>.
+    </p>
+  </body>
+</html>

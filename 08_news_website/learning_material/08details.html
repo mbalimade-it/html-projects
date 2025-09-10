@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details and Summary</title>
+  </head>
+  <body>
+    <!-- FAQ example -->
+    <details>
+      <summary>What is Semantic HTML?</summary>
+      <p>
+        Semantic HTML uses elements that describe their meaning, such as
+        <code>&lt;header&gt;</code> and <code>&lt;footer&gt;</code>.
+      </p>
+    </details>
+
+    <!-- expandable extra info -->
+    <p>
+      Our shop is open from 9 AM to 6 PM.
+      <details>
+        <summary>View holiday hours</summary>
+        <ul>
+          <li>Christmas: Closed</li>
+          <li>New Year's Day: Closed</li>
+        </ul>
+      </details>
+    </p>
+
+    <!-- default open attribute -->
+    <details open>
+      <summary>Course Outline</summary>
+      <p>Week 1: HTML Basics</p>
+      <p>Week 2: CSS Essentials</p>
+    </details>
+  </body>
+</html>
