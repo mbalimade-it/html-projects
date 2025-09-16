@@ -5,7 +5,7 @@ Think of your HTML document like a book:
 - A **book** has chapters, sections, sub-sections, etc.
 - Your **HTML page** also needs this structure so that people (and machines) can understand what’s important and how content is organized.
 
-### 📑 Heading Hierarchy (H1 → H6)
+### Heading Hierarchy (H1 → H6)
 
 HTML gives us six levels of headings:
 
@@ -34,11 +34,11 @@ What is “Semantic HTML”?
 - **Semantic = Meaningful.**
 - Semantic elements **describe their purpose** to both the browser and humans.
 
-Before HTML5 (around early 2000s), developers mostly used <div> and <span> for everything.
+Before HTML5 (around early 2000s), developers mostly used `<div>` and `<span>` for everything.
 
-<div> = a box or container (but has no meaning).
+`<div>` = a box or container (but has no meaning).
 
-<span> = inline container (also meaningless by itself).
+`<span>` = inline container (also meaningless by itself).
 
 #### The problems it created:
 
@@ -91,7 +91,7 @@ Semantic HTML makes your code easier to read, improves **SEO**, and helps **scre
 
 ### Why This is Better than Just `<div>`s?
 
-Old way before there was HTML5 we used `<div>`
+More clear than just using divs.
 
 ---
 
